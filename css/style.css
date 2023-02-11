@@ -1,0 +1,279 @@
+/*reset to remove default settings*/
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+/* this is to aply to everything*/
+
+/* general */
+html,body{
+    font-family: 'Open Sans', sans-serif;
+    color: rgb(116, 50, 50);
+}
+
+h1,h2,h3{
+    margin-top: 20px;
+    
+
+}
+a{
+    color: rgb(14, 11, 11);
+    text-decoration: none; /*to remove the underline */
+    
+}
+
+.separator{
+    margin: auto;
+    height: 10px;
+    width: 400px;
+    background:black ;    
+}
+
+.header{
+    background-color: rgb(100, 27, 27);
+    overflow:auto;
+    
+}
+
+.header nav h1{
+    float: left;
+    padding: 10px;
+    margin-bottom: 0px;
+    margin-top: 10px;
+}
+.header nav h1 a{
+    color: white;
+
+}
+
+.header nav ul{
+    float: right;
+    list-style:none;
+}
+
+.header nav ul li{
+    float: left;
+}
+
+.header nav ul li a{
+    color: white;
+    padding: 20px;
+    display: block; 
+}
+.header nav ul li a:hover{
+    background-color: rgb(206, 83, 83);
+}
+.active{
+    background-color:rgb(206, 83, 83);
+}
+
+
+
+/* vp */
+
+.vp{
+    height: 700px;
+    background:url(../images/cafe1.jpg) center center;   /* 50,50*/
+    background-size: cover;
+    text-align: center;
+}
+
+.vp-content{
+    max-width: 600px;
+    padding: 20px;
+    padding-top: 170px;
+    color: white;
+    display: block;
+    margin: auto; /*to make all in center */
+}
+.vp-content h1{
+    font-size: 50px;
+
+}
+
+.vp-content p{
+    font-size: 18px;
+    letter-spacing: 0.5 px;
+    line-height: 1.9em;
+    
+}
+.vp-content a{
+    color: black;
+    font-size: 20px;
+}
+
+
+
+/* button */
+
+.btn_primary{
+    background: white;
+    color: gray;
+    
+}
+.btn_primary:hover{
+    background: white;
+    color:brown;
+
+}
+.my-10{
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.btn{
+    display: inline-block;
+    padding: 15px 25px;
+    border-radius: 30px;
+    font-weight: 700    ;
+    font-size: 14px;
+    cursor: pointer;
+    border: 0px;
+}
+
+.btn-dark{
+    background: brown;
+    color: white;
+    border: 1px solid black;
+}
+.btn-dark:hover{
+    background:rgb(255, 255, 255);
+    color:brown;
+}
+/* container */
+.container{
+    max-width: 1000px;
+    display: block;
+    margin: auto;
+
+
+}
+
+/* features */
+
+.features{
+    overflow: auto;
+    padding: 100px 0px 100px 0px;
+    text-align: center;
+}
+.feature{
+    
+    float: left;
+    width: 50%;
+}
+
+/* Separator */
+/* .separater{
+    margin: auto;
+    height: 400px;
+    width: 1px;
+    background: brown;
+} */
+/* person */
+.person{
+    height: 500px;
+    background: url(../images/coder.jpg) center center/cover;
+    /* background-size: cover; */
+
+}
+/* button */
+.my-20{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/* reservation */
+.reservation{
+    padding: 100px 20px 100px 20px;
+    text-align: center;
+    
+}
+
+/* footer */
+footer{
+    background: rgb(71, 20, 20);
+    color: white;
+    padding: 30px 0px 30px 0px;
+    
+}
+footer p{
+    margin-bottom: 0px ;
+    text-align: center;
+}
+
+/* where */
+
+.where{
+    padding: 180px 0px 100px 0px;
+    overflow: auto;
+    min-height: 100vh;
+    border:1px solid rgb(255, 255, 255);
+   
+}
+.where-img{
+    float: left;
+    width: 45%;
+    border-radius: 5px;
+
+}
+
+.where-text{
+    float: right;
+    width: 50%;
+}
+
+.underline{
+    margin-top: 10px;
+    border-bottom:  solid rgb(116,50,50);
+
+}
+
+.chip{
+    display: inline-block;
+    text-align: center;
+    width: 35px;
+    border-radius:100% ;
+    background: #333;
+    color: white;
+}
+p{
+    margin-bottom: 10px;
+}
+
+.chip-purple{
+    background: #be418d;
+}
+
+.chip-brown{
+    background: #8c5e25;
+}
+
+/* contact */
+
+.contact{
+    padding: 180px 0px 100px 0px;
+    min-height: 100vh;
+}
+
+.contact-form-container{
+    max-width: 600px;
+    margin: auto;
+}
+
+.contact-form-container form label{
+    display: block;
+    font-weight:700px ;
+}
+
+.contact-form-container form input , textarea{
+    display: block;
+    width: 100%;
+    padding: 15px;
+    border: 1px solid #333;
+    border-radius: 3px;
+}
+
+.contact-form-container form textarea{
+    min-height: 80px;
+
+}

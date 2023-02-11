@@ -1,0 +1,168 @@
+
+/* Header */
+
+.header nav h1{
+    float: none;
+    text-align: center;
+
+}
+
+.header nav ul{
+    float: none;
+    justify-content:center
+  
+}
+.header nav ul li{
+    float: none;
+}
+
+.header nav ul li a{
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+
+/* content */
+
+.vp{
+padding-top: 50px;
+
+}
+.vp-content{
+font-size: 2rem;
+}
+.vp-content h1{
+    font-size: 2rem;
+}
+
+
+
+
+
+
+/* features */
+
+.features{
+    float: none;
+    width: 100%;
+    margin-bottom: 2rem;
+}
+.feature{
+  font-size: smaller;
+    float:none;
+    width: 100%;
+    margin-bottom: 2rem;
+  
+}
+
+
+.separator{
+    float: none;
+    height: 10px;
+    width:200px;
+    background:black ;    
+}
+
+
+.where{
+   
+    padding: 80px 20px 50px 20px;
+    /* overflow: auto; */
+    min-height: 100vh;
+    border:1px solid rgb(255, 255, 255);
+   
+}
+
+.where-img{
+    
+    float: none;
+    margin-bottom: 3rem;
+    display: block;
+    width: 100%;
+    border-radius: 5px;
+    margin: auto;
+
+}
+.where-text{
+    float: none;
+    display: block;
+    
+    width: 100%;
+    
+}
+
+/* underline */
+
+.underline{
+    display: inline;
+    border-bottom:  solid rgb(116,50,50);
+    text-align: center;
+    
+    
+}
+
+/* chip */
+
+.chip{
+   
+    text-align: center;
+    width: 35px;
+    border-radius:100% ;
+    background: #333;
+    color: white;
+}
+.chip-purple{
+    background: #be418d;
+}
+
+.chip-brown{
+    background: #8c5e25;
+}
+
+p{
+    margin-bottom: 10px;
+}
+
+
+
+
+/* person */
+.person{
+    height: 300px;
+    background: url(../images/coder.jpg) center center/cover;
+    /* background-size: cover; */
+
+}
+
+
+
+
+
+.contact{
+    padding: 50px 0px 52px 0px;
+    min-height: 100vh;
+}
+
+.contact-form-container{
+    max-width: 300px;
+    margin: auto;
+}
+
+.contact-form-container form label{
+    display: block;
+    font-weight:700px ;
+}
+
+.contact-form-container form input , textarea{
+    display: block;
+    width: 100%;
+    padding: 15px;
+    border: 1px solid #333;
+    border-radius: 3px;
+}
+
+.contact-form-container form textarea{
+    min-height: 80px;
+
+}

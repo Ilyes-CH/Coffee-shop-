@@ -1,0 +1,68 @@
+/* html,body{
+    background-color: lime;
+} */
+
+/* 
+@media(max-width:300px){
+    html, body{
+        background-color: cornflowerblue;
+    }
+    
+} */
+
+/* @media(min-width:800px){
+    html, body{
+        background-color:purple;
+    }
+    
+} */
+
+.parent{
+    width:90% ;
+    height:800px ;
+    margin:20px auto ;
+    background-color: cornflowerblue;
+    padding: 10px;
+    display: flex; 
+    align-items: center;/* this will it in th ecenter*/
+    /* justify-content: center;   this will it in the center */
+    /*align-items:flex-end; to make it in the bottom*/
+     
+     /* flex-end or start  */
+    /* justify-content: space-between; */ 
+    /* gap: 15px; to make a gap between elements */
+    /* justify-content: center; */
+    /* justify-content: space-around or also space-evenly; */
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.child{
+    width:80px ;
+    height: 80px;
+    padding: 10px;
+    border: 1px solid wheat;
+    background: white;
+    line-height: 80px;
+    
+ 
+}
+
+.child:first-child{
+    /* flex-grow: 2; */
+    /* order: 2; */
+    /* width: 160px; */
+    flex-basis: 200px;     /*  it adds width and height depends in whether u put in the parent flex dir column or row */
+
+}
+
+.child:nth-child(2){
+    /* order: 1; */
+    align-self: flex-end;
+    flex-basis: 120px;
+}
+
+.child:last-child{
+ flex-shrink: 2;   /*flex-shrink: 1; responsive*/
+ /* order: 3; */
+}
