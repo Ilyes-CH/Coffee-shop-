@@ -4,7 +4,7 @@
     padding:0;
     box-sizing: border-box;
 }
-/* this is to aply to everything*/
+
 
 /* general */
 html,body{
@@ -19,8 +19,7 @@ h1,h2,h3{
 }
 a{
     color: rgb(14, 11, 11);
-    text-decoration: none; /*to remove the underline */
-    
+    text-decoration: none;     
 }
 
 .separator{
@@ -85,7 +84,7 @@ a{
     padding-top: 170px;
     color: white;
     display: block;
-    margin: auto; /*to make all in center */
+    margin: auto; 
 }
 .vp-content h1{
     font-size: 50px;
@@ -161,19 +160,11 @@ a{
     float: left;
     width: 50%;
 }
-
-/* Separator */
-/* .separater{
-    margin: auto;
-    height: 400px;
-    width: 1px;
-    background: brown;
-} */
 /* person */
 .person{
     height: 500px;
     background: url(../images/coder.jpg) center center/cover;
-    /* background-size: cover; */
+    
 
 }
 /* button */
